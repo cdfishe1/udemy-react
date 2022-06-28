@@ -6,9 +6,8 @@ function Card(props) {
 
     return (
         <>  
-            <div className={classes}>{props.children}</div>
+            <section className={classes}>{props.children}</section>
         </>
-        
     )
 }
 //props.children allows children props of this prop to inherit the classes of Card
