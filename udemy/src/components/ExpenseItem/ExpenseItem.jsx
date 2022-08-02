@@ -2,7 +2,7 @@ import ExpenseDate from '../ExpenseDate/ExpenseDate';
 import Card from '../Card/Card';
 import './ExpenseItem.css';
 
-function ExpenseItem(props) {
+function ExpenseItem (props) {
   return (
     <>
       <Card className='expense-item'>

@@ -6,7 +6,7 @@ function Card(props) {
 
     return (
         <>  
-            <section className={classes}>{props.children}</section>
+            <li className={classes}>{props.children}</li>
         </>
     )
 }
